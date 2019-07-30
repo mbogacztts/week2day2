@@ -118,4 +118,30 @@ body {
     color: #666;
     padding: 40px 0;
 }
- 
+
+
+/* The page is basically ready by now. It is also fully responsible. However,
+ in the mobile view of the browser, the upper section doesn’t come out quite right yet. */
+@media (max-width: 575.98px) {
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}
